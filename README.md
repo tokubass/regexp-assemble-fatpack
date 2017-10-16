@@ -11,6 +11,7 @@ $ curl https://raw.githubusercontent.com/tokubass/regexp-assemble-fatpack/master
 $ perl regexp-assemble.fatpack.pl user_ng_word.txt
 
 # build
+$ cpanm -S App::FatPacker::Simple
 $ fatpack-simple src/regexp-assemble.pl
 $ perl regexp-assemble.fatpack.pl ng_word.txt
 ```
